@@ -1,0 +1,25 @@
+name: test_task
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter 
+  solid_lints: ^0.0.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter  
+  
+flutter:  
+  uses-material-design: true
+
+  
